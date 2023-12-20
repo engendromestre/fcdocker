@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS nodedb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE nodedb;
+CREATE TABLE IF NOT EXISTS people (nome VARCHAR(50));
